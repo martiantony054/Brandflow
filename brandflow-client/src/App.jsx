@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { T, GLOBAL_CSS } from "./lib/theme";
 import Sidebar from "./Components/Layout/Sidebar";
-import GenerateView from "./Components/views/GenerateView";
+import GenerateView from "./Components/Views/GenerateView";
 import RepurposeView from "./Components/Views/RepurposeView";
 import PredictView from "./Components/Views/PredictView";
 
