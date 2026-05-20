@@ -1,7 +1,5 @@
-
-
-const openrouter = require("../Services/openrouterservice");
-const posting = require("../Models/Post");
+const openrouter = require("../services/openrouterservice");
+const posting = require("../models/Post");
 
 async function predict(req, res, next) {
   try {
