@@ -1,6 +1,6 @@
 // server/controllers/repurpose.controller.js
-const openrouter = require("../services/openrouterservice");
-const posting = require("../models/Post");
+const openrouter = require("../Services/openrouterservice");
+const posting = require("../Models/Post");
 
 async function repurpose(req, res, next) {
   try {

@@ -1,5 +1,5 @@
-const openrouter = require("../services/openrouterservice");
-const Post = require("../models/Post");
+const openrouter = require("../Services/openrouterservice");
+const Post = require("../Models/Post");
 
 async function generate(req, res, next) {
   try {
