@@ -12,10 +12,10 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }));
 app.use(expr.json()); 
 
-app.use('/api/generate',  require('./routes/Generate'));
-app.use('/api/repurpose', require('./routes/Repurpose'));
-app.use('/api/predict',   require('./routes/Predict'));
-app.use('/api/posts',     require('./routes/Post'));
+app.use('/api/generate',  require('./Routes/Generate'));
+app.use('/api/repurpose', require('./Routes/Repurpose'));
+app.use('/api/predict',   require('./Routes/Predict'));
+app.use('/api/posts',     require('./Routes/Post'));
 
 
 app.get('/api/health', (_, res) => res.json({ status: 'ok' }));
