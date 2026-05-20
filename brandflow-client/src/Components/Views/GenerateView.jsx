@@ -4,7 +4,7 @@ import { T, PLATFORMS, TONES } from '../../lib/theme';
 import { generatePosts }        from '../../lib/api';
 import Heading                  from '../Ui/Heading';
 import Skeleton                 from '../Ui/Skeleton';
-import PostCard                 from '../Ui/PostCard';
+import PostCard                 from '../Ui/Postcard';
 
 export default function GenerateView() {
   const [platform, setPlatform] = useState('instagram');
