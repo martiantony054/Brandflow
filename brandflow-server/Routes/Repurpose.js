@@ -1,6 +1,6 @@
 // server/routes/repurpose.js
 const router     = require('express').Router();
-const controller = require('../controllers/Repurposecontroller');
+const controller = require('../Controllers/Repurposecontroller');
 
 router.post('/',controller.repurpose);
 

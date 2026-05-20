@@ -3,7 +3,7 @@
 // GET /api/posts?platform=instagram&limit=20&page=1
 
 const router = require('express').Router();
-const posting   = require('../models/Post');
+const posting   = require('../Models/Post');
 
 router.get('/', async (req, res, next) => {
   try {
